@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/stylesheet.css">
+<title><strong>My Favorite Teams</strong></title>
+</head>
+
+<body>
+<div>
+  
+<nav id = "links">
+<a href="../index.html">Home Page</a><br>
+<a href="BestPlayers.html">Best Players</a><br>
+<a href="FunFacts.html">Fun Facts</a><br>
+<a href="PlayingSoccer.html">Playing Soccer</a><br>
+<a href="TheBeginning.html">The Beginning</a><br>
+<a href="WatchingSoccer.html">Watching Soccer</a><br>
+</nav>
+
+<h1>Favorite Teams</h1>
+
+</div>
+
+<p>
+    Everyone who has a love for the sport has their favorite team that comes before all else. 
+    However most people often enjoy watching or supporting other teams because they like certain players on that team or just like their style of play.
+    Taking these factors into consideration I have assembled a list of my current favorite teams. 
+</p>
+
+<img id="ManCityImage" src="../images/ManCity.jpg" alt="Man Citys 2023 treble winning season">
+
+<table id = "FavoriteTeams">
+  <caption>My Favorite Teams</caption>
+  <thead>
+    <tr>
+      <th>Rank</th>  
+      <th>Team Name</th>
+      <th>League</th>
+      <th>Favorite Player on Team</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>  
+      <td>Manchester City</td>
+      <td>Premier League</td>
+      <td>Kevin De Bruyne</td>
+    </tr>
+    <tr>
+      <td>2</td>  
+      <td>Real Madrid CF</td>
+      <td>La Liga Santander</td>
+      <td>Jude Bellingham</td>
+    </tr>
+    <tr>
+      <td>3</td>  
+      <td>Bayer Levercusen</td>
+      <td>Bundesliga</td>
+      <td>Jeremie Frimpong</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>FC Barcelona</td>
+      <td>La Liga Santander</td>
+      <td>Lamine Yamal</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>New England Revolution</td>
+      <td>MLS</td>
+      <td>Carles Gil</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>AC Milan</td>
+      <td>Serie A</td>
+      <td>Christian Pulisic</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Newcastle United</td>
+      <td>Premier League</td>
+      <td>Bruno Guimaraes</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Brighton</td>
+      <td>Premier League</td>
+      <td>Kaoru Mitoma</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Napoli</td>
+      <td>Serie A</td>
+      <td>Khvicha Kvaratskhelia</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Borussia Dortmund</td>
+      <td>Bundesliga</td>
+      <td>Gio Reyna</td>
+    </tr>
+  </tbody>
+    <tfoot>
+      <tr>
+        <th colspan = "4">Favotite National Team</th>
+      </tr>
+      <tr>
+        <th colspan = "2">United States</th>
+        <th>CONCACAF</th>
+        <th>Christian Pulisic</th>
+      </tr>
+    </tfoot>
+</table>
+<h3>Please fill out this form to give us information on how to improve the experience on the website</h3>
+<form id = "FavTeamForm" method = "post"
+    action = "http://amgilder.wcit.cs.unh.edu/cgi-bin/test403">
+    <label for="Name">Name:</label><br>
+    <input type="password" id="Name" name="Name"><br>
+    <label for="FavoriteTeam">What's Your Favorite Team?</label><br>
+    <input type="text" id="FavoriteTeam" name="FavoriteTeam"><br> 
+    <label for="FavoritePlayer">Who's Your Favorite Player?</label><br>
+    <input type="text" id="FavoritePlayer" name="FavoritePlayer"><br> 
+    <fieldset>
+        <legend>Do you enjoy watching these leagues (Check if yes)</legend>
+        <fieldset>
+            <input type="checkbox" id="PremierLeague" name="PremierLeague" value="checked">
+            <label for="PremierLeague">Premier League</label><br>
+            <input type="checkbox" id="SerieA" name="SerieA" value="checked">
+            <label for="SerieA">Serie A</label><br>
+            <input type="checkbox" id="Bundesliga" name="Bundesliga" value="checked">
+            <label for="Bundesliga">Bundesliga</label><br>
+            <input type="checkbox" id="LaLigaSantander" name="LaLigaSantander" value="checked">
+            <label for="LaLigaSantander">La Liga Santander</label><br>
+            <input type="checkbox" id="Ligue1UberEats" name="Ligue1UberEats" value="checked">
+            <label for="Ligue1UberEats">Ligue 1 Uber Eats</label><br>
+        </fieldset>
+      <fieldset>
+        <legend>For the leagues checked above would you like to see specific information about those leagues on this site?</legend>
+          <input type="radio" id="yes" name="yes" value="More info wanted">
+          <label for="yes">Yes, I would like more information</label><br>
+          <input type="radio" id="no" name="no" value="No info wanted">
+          <label for="no">No, I would not like more information</label><br>
+      </fieldset>
+    </fieldset>
+    <input type="submit" value ="Submit">
+   
+</form>
+</body>
+</html>
